@@ -52,9 +52,9 @@
             <div class="stars-seal"><span class="st">★★★★★</span> Avaliada por centenas de clientes satisfeitas</div>
             <div class="urgency-wrap"><span class="urgency">🔥 Estoque promocional por tempo limitado</span></div>
             <div class="price-hero">
-              <span class="now">R$ 89,90</span>
-              <span class="old">R$ 129,90</span>
-              <span class="off">-31%</span>
+              <span class="now">R$ 49,90</span>
+              <span class="old">R$ 79,90</span>
+              <span class="off">OFERTA</span>
             </div>
             <a href="#tamanhos" class="cta">
               <span class="cta-text">QUERO A MINHA CINTA</span>
@@ -217,7 +217,7 @@
             <h2>Escolha seu <span class="hl">tamanho</span></h2>
             <p class="sub">Toque no seu tamanho para finalizar a compra com segurança.</p>
             <div class="price-box">
-              <div><span class="now">R$ 89,90</span><span class="old">R$ 129,90</span></div>
+              <div><span class="now" id="display-price">R$ 49,90</span><span class="old" id="display-old">R$ 79,90</span></div>
               <div class="parc">no Pix ou em até 12x no cartão</div>
             </div>
           </div>
@@ -237,6 +237,13 @@
                 <button type="button" class="opt-btn sz" data-size="M">M</button>
                 <button type="button" class="opt-btn sz" data-size="G">G</button>
                 <button type="button" class="opt-btn sz" data-size="GG">GG</button>
+              </div>
+            </div>
+            <div class="picker">
+              <div class="picker-label">3. Quantidade</div>
+              <div class="opt-row" id="qtdRow">
+                <button type="button" class="opt-btn sel" data-qtd="1">1 Unid. (R$ 49,90)</button>
+                <button type="button" class="opt-btn" data-qtd="2">2 Unid. (R$ 69,90)</button>
               </div>
             </div>
             <button type="button" class="buy-btn" id="buyBtn" disabled>
@@ -298,7 +305,7 @@
           <p>Modelagem instantânea, conforto e segurança nas roupas justas.</p>
           <a href="#tamanhos" class="cta">
             <span class="cta-text">ESCOLHER MEU TAMANHO</span>
-            <small>R$ 89,90 · Frete grátis hoje</small>
+            <small>A partir de R$ 49,90 · Frete grátis hoje</small>
           </a>
         </div>
       </section>
@@ -315,8 +322,8 @@
       <div class="float" id="float">
         <div class="float-in">
           <div class="float-price">
-            <div class="old">R$ 129,90</div>
-            <div class="now">R$ 89,90</div>
+            <div class="old" id="float-old">R$ 79,90</div>
+            <div class="now" id="float-now">R$ 49,90</div>
           </div>
           <a href="#tamanhos" class="cta float-cta">ESCOLHER TAMANHO</a>
         </div>
